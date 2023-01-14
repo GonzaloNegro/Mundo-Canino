@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "nombre": "Patricia Phelton",
+        "sexo": "Masculino",
+        "ocupacion": "Abogada",
+        "ubicacion": "B° Jardín",
+        "precio": 450,
+        "foto": "./images/paseadores/1.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "John Michael",
+        "sexo": "Masculino",
+        "ocupacion": "Contratista",
+        "ubicacion": "B° Nueva Córdoba",
+        "precio": 500,
+        "foto": "./images/paseadores/2.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Leonard Smith",
+        "sexo": "Masculino",
+        "ocupacion": "Veterinario",
+        "ubicacion": "B° Cofico",
+        "precio": 420,
+        "foto": "./images/paseadores/3.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Abigail Renne",
+        "sexo": "Masculino",
+        "ocupacion": "Estudiante",
+        "ubicacion": "B° Nueva Córdoba",
+        "precio": 520,
+        "foto": "./images/paseadores/4.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Patrick Douglas",
+        "sexo": "Masculino",
+        "ocupacion": "Arquitecto",
+        "ubicacion": "B° Alta Córdoba",
+        "precio": 500,
+        "foto": "./images/paseadores/5.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Rachel Brown",
+        "sexo": "Masculino",
+        "ocupacion": "Pintora",
+        "ubicacion": "B° General Paz",
+        "precio": 380,
+        "foto": "./images/paseadores/6.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Adam Philips",
+        "sexo": "Músico",
+        "ocupacion": "Veterinario",
+        "ubicacion": "B° Alto Alberdi",
+        "precio": 450,
+        "foto": "./images/paseadores/7.jpg"
+    }
+    ]

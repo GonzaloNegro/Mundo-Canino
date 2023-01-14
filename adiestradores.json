@@ -1,0 +1,51 @@
+[
+{
+    "id": 1,
+    "nombre": "Mary Scott",
+    "experiencia": "1 año",
+    "precio": 5500,
+    "foto": "./images/adiestradores/1.jpg"
+},
+{
+    "id": 2,
+    "nombre": "Robert King",
+    "experiencia": "2 años",
+    "precio": 6500,
+    "foto": "./images/adiestradores/2.jpg"
+},
+{
+    "id": 3,
+    "nombre": "David White",
+    "experiencia": "1 año",
+    "precio": 6000,
+    "foto": "./images/adiestradores/3.jpg"
+},
+{
+    "id": 4,
+    "nombre": "Jennifer Anderson",
+    "experiencia": "6 meses",
+    "precio": 4000,
+    "foto": "./images/adiestradores/4.jpg"
+},
+{
+    "id": 5,
+    "nombre": "Elizabeth Miller",
+    "experiencia": "1 año",
+    "precio": 5500,
+    "foto": "./images/adiestradores/5.jpg"
+},
+{
+    "id": 6,
+    "nombre": "Ryan Williams",
+    "experiencia": "3 años",
+    "precio": 7000,
+    "foto": "./images/adiestradores/6.jpg"
+},
+{
+    "id": 7,
+    "nombre": "Carter Jones",
+    "experiencia": "2 años",
+    "precio": 6000,
+    "foto": "./images/adiestradores/7.jpg"
+}
+]

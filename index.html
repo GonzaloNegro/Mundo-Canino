@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./images/logo1.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Mundo Canino</title>
+</head>
+<body>
+    <header>
+        <a href="" class="logo">Mundo canino</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#paseadores">Paseadores</a></li>
+            <li><a href="#adiestradores">Adiestradores</a></li>
+        </ul>
+    </header>
+    <section>
+        <div class="pri" id="home">
+            <div class="pri-pri">
+                <div class="pri-pri-tit">
+                    <div class="pri-pri-tit-img"><img src="./images/logo3.png" alt=""></div>
+                    <div><h1>Mundo canino</h1></div>
+                </div>
+                <div class="pri-pri-info">
+                    <p>Ellos nos acompañan en el día a día, sacandonós una sonrisa desinteresadamente y nosotros debemos devolverselo brindandoles la mejor atención.</p>
+                </div>
+            </div>
+
+            <div class="pri-sec" id="nosotros">
+                <div class="pri-pri-tit-img"><img src="./images/logo3.png" alt=""></div>
+                <div><h1>Sobre nosotros</h1></div>
+                <div class="pri-sec-info">
+                    <p>Mundo canino surge con la intensión de buscar una solución rápida y efectiva a todo lo relacionado a nuestros perros.<br><br>Consideramos que estar al cuidado de una mascota es algo que requiere de mucha responsabilidad y tiempo de dedicación. Por ese motivo ponemos a disposición este sitio web para poder encontrar servicios que puedan mejorar la calidad de vida de los mismos.<br><br>Así mismo disponemos de un portal donde se puede adoptar nuevos miembros para nuestra familia y encontar aquellos perritos que se han escapado.</p>
+                </div>
+            </div>
+
+          <!-- Swiper -->
+          <div class="pri-ter swiper mySwiper" id="paseadores">
+                <div class="pri-pri-tit-img"><img src="./images/logo3.png" alt=""></div>
+                <div><h1>Paseadores</h1></div>
+            <div class="swiper-wrapper">
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <!-- Swiper -->
+          <div class="pri-ter swiper mySwiper" id="adiestradores">
+            <div class="pri-pri-tit-img"><img src="./images/logo3.png" alt=""></div>
+            <div><h1>Adiestradores</h1></div>
+            <div class="swiper-wrapper adie">
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+        </div>
+    </section>
+
+
+
+    <footer>
+
+    </footer>
+
+          <!-- Swiper JS -->
+          <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              effect: "coverflow",
+              grabCursor: true,
+              centeredSlides: true,
+              slidesPerView: "auto",
+              coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+              },
+              pagination: {
+                el: ".swiper-pagination",
+              },
+            });
+          </script>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", ()=>{
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+    })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
